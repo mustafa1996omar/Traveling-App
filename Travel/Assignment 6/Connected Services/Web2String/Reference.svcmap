@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f409f208-a476-4404-b1d4-0b355da5a690" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://neptune.fulton.ad.asu.edu/WSRepository/Services/Web2StringSVC/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="b0368757-d583-414c-8254-1890ff181fe4" SourceId="1" SourceUrl="http://neptune.fulton.ad.asu.edu/WSRepository/Services/Web2StringSVC/service.svc?wsdl" />
+    <MetadataFile FileName="service.disco" MetadataType="Disco" ID="944d99e2-1dda-4b84-bbb5-8b813b47ed27" SourceId="1" SourceUrl="http://neptune.fulton.ad.asu.edu/WSRepository/Services/Web2StringSVC/service.svc?disco" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="4c23294a-a599-4f49-81a1-f36cebd1c234" SourceId="1" SourceUrl="http://neptune.fulton.ad.asu.edu/WSRepository/Services/Web2StringSVC/service.svc?xsd=xsd1" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="48819ca0-ed76-43b1-80ca-94698da50104" SourceId="1" SourceUrl="http://neptune.fulton.ad.asu.edu/WSRepository/Services/Web2StringSVC/service.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
